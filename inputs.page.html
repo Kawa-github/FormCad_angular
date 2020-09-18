@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      <ion-back-buttons></ion-back-buttons>
+      <ion-back-buttons></ion-back-buttons>
+    </ion-buttons>
+    <ion-title>Formulário de cadastro</ion-title>
+  </ion-toolbar>
+  <div>
+    <h2>Preencha seus dados</h2>
+  </div>
+</ion-header>
+
+<ion-content color="light">
+  <ion-item>
+    <ion-label>Nome:</ion-label>
+    <ion-input placeholder="Informe seu nome completo" type="text" position="floating"></ion-input>
+  </ion-item>
+
+    <ion-item>
+      <ion-label>Email:</ion-label>
+      <ion-input type="email" placeholder="Informe seu email" maxlength="20" position="floating" size="20"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Senha:</ion-label>
+      <ion-input type="password" placeholder="Informe sua senha" maxlength="15" size="20"></ion-input>  
+    </ion-item>
+  
+  <ion-item>
+  <ion-label>Data de Nascimento:</ion-label>
+<ion-datetime displayFormat="DD/MM/YYYY" placeholder="Selecione a data"></ion-datetime>
+  </ion-item>
+  <ion-item>
+    <ion-button expand="block" color="primary">
+      Cadastrar
+    </ion-button>
+  </ion-item>
+</ion-content>
